@@ -1,0 +1,11 @@
+{
+  "name": "prnt.sc-roulette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ded#0346 (dedlyT)",
+  "license": "ISC"
+}
