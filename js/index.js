@@ -9,7 +9,8 @@ $("#daddy").click(() => {
 });
 
 function roulette() {
-    console.log(`https://prnt.sc/${r()}${r()}${r()}${r()}${r()}${r()}`)
+    var url = `https://prnt.sc/${r()}${r()}${r()}${r()}${r()}${r()}`;
+    window.open(url);
 }
 
 function r() {
