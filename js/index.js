@@ -9,6 +9,9 @@ $("#daddy").click(() => {
 });
 
 function roulette() {
-    //console.log(Math.floor(Math.random() * chars.length));
-    console.log(Math.floor(Math.random()*11));
+    console.log(`https://prnt.sc/{r()}{r()}{r()}{r()}{r()}{r()}`)
+}
+
+function r() {
+    return chars[Math.floor(Math.random()*chars.length)];
 }
