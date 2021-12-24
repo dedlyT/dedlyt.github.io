@@ -9,6 +9,7 @@ $("#daddy").click(() => {
 });
 
 function roulette() {
+    console.log(r());
     console.log(`https://prnt.sc/{r()}{r()}{r()}{r()}{r()}{r()}`)
 }
 
