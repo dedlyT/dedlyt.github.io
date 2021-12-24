@@ -9,5 +9,5 @@ $("#daddy").click(() => {
 });
 
 function roulette() {
-    console.log(Math.random(0,chars.length-1));
+    console.log(Math.floor(Math.random() * chars.length));
 }
